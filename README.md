@@ -1,5 +1,5 @@
 # rust-lioness
-[![](https://travis-ci.org/david415/rust-lioness.png)](https://www.travis-ci.org/david415/rust-lioness) [![](https://img.shields.io/crates/v/rust-lioness.svg)](https://crates.io/crates/rust-lioness) [![](https://docs.rs/rust-lioness/badge.svg)](https://docs.rs/rust-lioness/)
+[![](https://travis-ci.org/sphinx-cryptography/rust-lioness.png)](https://www.travis-ci.org/sphinx-cryptography/rust-lioness) [![](https://img.shields.io/crates/v/rust-lioness.svg)](https://crates.io/crates/rust-lioness) [![](https://docs.rs/rust-lioness/badge.svg)](https://docs.rs/rust-lioness/)
 
 This crate provides a concrete parameterization of the Lioness wide
 block cipher using ChaCha20 and Blake2b.
@@ -12,7 +12,7 @@ extreme care and advice from competent cryptographers. That said,
 Lionness' security properties mostly reduce to the underlying stream
 cipher and hash function.
 
-Test vectors are verified in a fork of Yawning golang Lioness
+Test vectors are verified in a fork of Yawning's golang Lioness
 implementation: https://github.com/david415/lioness
 
 
@@ -34,7 +34,7 @@ This crate works with Cargo and is on crates.io
 https://crates.io/crates/rust-lioness. Add it to your
 `Cargo.toml` with:
 ```toml
-rust-lioness = "^0.1.4"
+rust-lioness = "^0.1.5"
 ```
 Then import the crate as:
 ```rust,no_run

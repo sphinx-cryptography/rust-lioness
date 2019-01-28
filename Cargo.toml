@@ -1,10 +1,10 @@
 [package]
 name = "rust-lioness"
-version = "0.1.4"
-authors = ["Jeffrey Burdges <burdges@gnunet.org>", "David Stainton <dstainton415@gmail.com>"]
+version = "0.1.5"
+authors = ["Jeffrey Burdges <burdges@gnunet.org>", "David Stainton <dawuud@riseup.net>"]
 description = "Lioness wide block cipher"
-homepage = "https://github.com/david415/rust-lioness"
-repository = "https://github.com/david415/rust-lioness.git"
+homepage = "https://github.com/sphinx-cryptography/rust-lioness"
+repository = "https://github.com/sphinx-cryptography/rust-lioness.git"
 documentation = "https://docs.rs/rust-lioness/"
 readme = "README.md"
 keywords = ["cryptography","cipher","lioness", "sphinx", "mixnet"]
